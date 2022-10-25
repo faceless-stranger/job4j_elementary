@@ -5,11 +5,11 @@ public class Main {
         byte age = 25;
         char pol = 'М';
         float rost = 1.95f;
-        long koe = 9999999;
+        double koe = 1E7;
         short kirpich = 24500;
-        int moon = 400000;
+        double moon = 400000;
         boolean job = true;
-        short sizefile = 25392;
+        long sizefile = 25_392L;
 
     }
 }
