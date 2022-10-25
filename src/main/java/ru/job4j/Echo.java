@@ -1,3 +1,3 @@
 package ru.job4j;
-public class Echo {
+public class Echo {1
 }
