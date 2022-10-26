@@ -5,8 +5,9 @@ public class Main {
         int y = x * x + 1;
         return y;
     }
+
     public static void main(String[] args) {
         int result3 = Main.func1(100);
-        System.out.println( result3 );
+        System.out.println(result3);
     }
 }
