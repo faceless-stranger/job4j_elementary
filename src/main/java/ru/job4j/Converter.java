@@ -13,12 +13,12 @@ public class Converter {
     }
 
     public static float rubToDol(float data2) {
-        float rsl = data2 / 70;
+        float rsl = data2 / 60;
         return rsl;
     }
 
     public static float dolToRub(float data2) {
-        float rsl = data2 * 70;
+        float rsl = data2 * 60;
         return rsl;
     }
 
