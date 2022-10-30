@@ -1,4 +1,4 @@
-package ru.job4j;
+package ru.job4j.converter;
 
 public class Converter {
 
@@ -27,7 +27,7 @@ public class Converter {
         System.out.println("140 rubles are " + rubToEur + " euro.");
         float in1 = 140;
         float expected1 = 2;
-        float out1 = Converter.rubToEur(140);
+        float out1 = Converter.rubToEur(in1);
         boolean passed1 = expected1 == out1;
         System.out.println("140 rubles are 2. Test result : " + passed1);
 
@@ -35,24 +35,24 @@ public class Converter {
         System.out.println("5 euro are " + eurToRub + " rubles.");
         float in2 = 5;
         float expected2 = 350;
-        float out2 = Converter.eurToRub(5);
+        float out2 = Converter.eurToRub(in2);
         boolean passed2 = expected2 == out2;
-        System.out.println("140 rubles are 2. Test result : " + passed2);
+        System.out.println("5 euro are 350. Test result : " + passed2);
 
-        float rubToDol = Converter.rubToDol(1000);
+        float rubToDol = Converter.rubToDol(1031);
         System.out.println("1031 rubles are " + rubToDol + " dollars.");
         float in3 = 1031;
-        float expected3 = 16;
-        float out3 = Converter.rubToDol(1000);
+        double expected3 = 17.183332;
+        float out3 = Converter.rubToDol(in3);
         boolean passed3 = expected2 == out2;
-        System.out.println("140 rubles are 2. Test result : " + passed3);
+        System.out.println("1031 rubles are 16. Test result : " + passed3);
 
         float dolToRub = Converter.dolToRub(10);
         System.out.println("10 dollars are " + dolToRub + " rubles.");
         float in4 = 10;
         float expected4 = 600;
-        float out4 = Converter.dolToRub(10);
+        float out4 = Converter.dolToRub(in4);
         boolean passed4 = expected2 == out2;
-        System.out.println("140 rubles are 2. Test result : " + passed4);
+        System.out.println("10 dollars are 600. Test result : " + passed4);
     }
 }
