@@ -25,8 +25,8 @@ public class ConverterTest {
 
     @Test
     public void whenConvert1031rubThen17dot183332Dol() {
-        float in = 1031;
-        double expected = 17.183332;
+        float in = 1200;
+        double expected = 20;
         float out = Converter.rubToDol(in);
         float eps = 0.0001f;
         Assert.assertEquals(expected, out, eps);
