@@ -2,23 +2,23 @@ package ru.job4j.converter;
 
 public class Converter {
 
-    public static float rubToEur(float data1) {
-        float rsl = data1 / 70;
+    public static float rubToEur(float data) {
+        float rsl = data / 70;
         return rsl;
     }
 
-    public static float eurToRub(float data2) {
-        float rsl = data2 * 70;
+    public static float eurToRub(float data) {
+        float rsl = data * 70;
         return rsl;
     }
 
-    public static float rubToDol(float data2) {
-        float rsl = data2 / 60;
+    public static float rubToDol(float data) {
+        float rsl = data / 60;
         return rsl;
     }
 
-    public static float dolToRub(float data2) {
-        float rsl = data2 * 60;
+    public static float dolToRub(float data) {
+        float rsl = data * 60;
         return rsl;
     }
 
