@@ -9,7 +9,11 @@ public class SqArea {
     }
 
     public static void main(String[] args) {
-        double result1 = SqArea.square(6, 2);
-        System.out.println(" p = 6, k = 2, s = 1, real = " + result1);
+        double result = SqArea.square(6, 2);
+        System.out.println(" p = 6, k = 2, s = 1, real = " + result);
+        result = SqArea.square(12, 3);
+        System.out.println(" p = 12, k = 3, s = 1, real = " + result);
+        result = SqArea.square(77, 12);
+        System.out.println(" p = 77, k = 12, s = 1, real = " + result);
     }
 }
