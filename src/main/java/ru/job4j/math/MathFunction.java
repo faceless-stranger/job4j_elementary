@@ -10,7 +10,7 @@ public class MathFunction {
     }
 
     public static double sub(double first, double second) {
-        return Math.abs(first - second);
+        return first - second;
     }
 
     public static double div(double first, double second) {
