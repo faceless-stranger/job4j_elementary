@@ -6,7 +6,7 @@ public class X2 {
     }
 
     public static void main(String[] args) {
-        int rsl = X2.calc(10,0, 0, 2);
+        int rsl = X2.calc(10, 0, 0, 2);
         System.out.println(rsl);
         rsl = X2.calc(1, 1, 1, 1);
         System.out.println(rsl);
