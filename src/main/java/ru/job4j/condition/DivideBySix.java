@@ -14,13 +14,4 @@ public class DivideBySix {
         }
         return rsl;
     }
-
-    public static void main(String[] args) {
-        String res = DivideBySix.checkNumber(12);
-        System.out.println(res);
-        res = DivideBySix.checkNumber(364);
-        System.out.println(res);
-        res = DivideBySix.checkNumber(1200);
-        System.out.println(res);
-    }
 }
