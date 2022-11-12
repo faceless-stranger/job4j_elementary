@@ -6,13 +6,13 @@ public class Fitness {
         while (ivan <= nik) {
                 ivan *= 3;
                 nik *= 2;
-            month += 1;
+            month++;
             System.out.println(month);
         }
         return month;
     }
 
      public static void main(String[] args) {
-       int date = Fitness.calc(100, 130);
+       int date = Fitness.calc(100, 180);
      }
 }
