@@ -2,13 +2,20 @@ package ru.job4j.array;
 
 import org.junit.jupiter.api.Test;
 
-import static org.assertj.core.api.Assertions.*;
 import static org.assertj.core.api.Assertions.assertThat;
 
 class SquareTest {
 
     @Test
-    void calculate() {
+    public void whenBound3Then014() {
+        int bound = 3;
+        int[] result = Square.calculate(bound);
+        int[] expected = new int[] {0, 1, 4};
+        assertThat(result).containsExactly(expected);
+    }
+
+    @Test
+    public void whenBound5Then014916() {
        int[] result = Square.calculate(5);
        int[] expected = new int[] {0, 1, 4, 9, 16};
        assertThat(result).containsExactly(expected);
