@@ -16,4 +16,12 @@ public class SwitchArray {
             System.out.println(rsl[index]);
         }
     }
-}
+
+        public static int[] swap(int[] array, int source, int dest) {
+            int cloud = array[source];
+            array[source] = array[dest];
+            array[dest] = cloud;
+            return array;
+        }
+
+    }
