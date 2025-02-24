@@ -41,4 +41,30 @@ public class PointTest {
         Assert.assertEquals(expected, out, 0.01);
     }
 
+    @Test
+    public void when000to222Then3dot464() {
+        double expected = 3.464;
+        Point a = new Point(0, 0, 0);
+        Point b = new Point(2, 2, 2);
+        double out = a.distance3d(b);
+        Assert.assertEquals(expected, out, 0.01);
+    }
+
+    @Test
+    public void when111to456Then7dot071() {
+        double expected = 7.071;
+        Point a = new Point(1, 1, 1);
+        Point b = new Point(4, 5, 6);
+        double out = a.distance3d(b);
+        Assert.assertEquals(expected, out, 0.01);
+    }
+
+    @Test
+    public void whenSamePointsThen0() {
+        double expected = 0;
+        Point a = new Point(5, 5, 5);
+        Point b = new Point(5, 5, 5);
+        double out = a.distance3d(b);
+        Assert.assertEquals(expected, out, 0.01);
+    }
 }
